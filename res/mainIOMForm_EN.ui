@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelDateTime">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>8</y>
+      <width>301</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(53, 132, 228);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>37</y>
+      <width>301</width>
+      <height>185</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>471</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_IOM">
+     <attribute name="title">
+      <string>IOM</string>
+     </attribute>
+     <widget class="QLabel" name="labelLogo">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>134</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: A framework for interacting with different scenarios characteristic of
+intraoperative monitoring sessions in supra, infra-tentorial, and spinal
+surgery. The learning process is suggested with a gradual approach to
+multimodal monitoring challenges. Simulation in individual modalities allows
+acquiring sufficient familiarity to later face the problems that arise in a
+real scenario.
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateTime_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>IOM-Simula: Intraoperative Scenario Simulator</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushBtSimVP">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>185</y>
+        <width>110</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(28, 113, 216);
+</string>
+      </property>
+      <property name="text">
+       <string>Simulation</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_ANESTH">
+     <attribute name="title">
+      <string>ANESTH</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit_16">
+      <property name="geometry">
+       <rect>
+        <x>132</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: Anesthesia control module with ECG, Arterial Pressure, O2 saturation,
+Heart Rate with R-R, SDNN and RMSSD, Respiratory Cycle, TCI infusion control of
+Propofol, Remifentanil and Ketamine, independent control of Sevoflurane.
+Adaptation of patient's metadata with age, sex, heght and weight with
+calculated BMI and LBM.
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateTime_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>IOM-Simula: Anesthesia Monitor</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoAnesth">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_SEPas">
+     <attribute name="title">
+      <string>SEP U.L.</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>SEP: Somatosensory Evoked Potentials Sim. (U.L.)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoSep">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>134</x>
+        <y>40</y>
+        <width>251</width>
+        <height>174</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: SEP Upper Limbs module: stimulation of the peripheral nerve at the
+wrist (median nerve or ulnar nerve), recording at the elbow fold, axilla, Erb's
+point, CV7 spinous process, and C3' position on the scalp, for contralateral
+stimulation.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_SEPai">
+     <attribute name="title">
+      <string>SEP L.L.</string>
+     </attribute>
+     <widget class="QLabel" name="labelLogoSepai">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateTime_12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>SEP: Somatosensory Evoked Potentials Sim. (L.L.)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_7">
+      <property name="geometry">
+       <rect>
+        <x>134</x>
+        <y>39</y>
+        <width>251</width>
+        <height>174</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: SEP Lower Limbs module. Stimulation of the tibial nerve at the ankle,
+recording at the popliteal fossa, CV7 spinous process, and CZ' position on the
+scalp, for contralateral stimulation.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_MEPcn">
+     <attribute name="title">
+      <string>MEP C.N.</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>MEP: Motor Evoked Potentials Sim. (C.N.)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoMepcb">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_8">
+      <property name="geometry">
+       <rect>
+        <x>133</x>
+        <y>39</y>
+        <width>251</width>
+        <height>174</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: MEP Cranial Nerves module. Transcranial stimulation on the scalp with
+a train of pulses and Emg-triggered recording from the relevant target muscles.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_MEPas">
+     <attribute name="title">
+      <string>MEP U.L.</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>MEP: Motor Evoked Potentials Sim. (U.L.)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoMep">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_9">
+      <property name="geometry">
+       <rect>
+        <x>132</x>
+        <y>38</y>
+        <width>251</width>
+        <height>174</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: MEP Upper Limbs module. Transcranial stimulation on the scalp with a
+train of pulses and Emg-triggered recording from the relevant target muscles.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_MEPai">
+     <attribute name="title">
+      <string>MEP L.L.</string>
+     </attribute>
+     <widget class="QLabel" name="labelLogoMepai">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>38</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateTime_11">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>8</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>MEP Simulator: Motor Evoked Potentials (L.L.)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_10">
+      <property name="geometry">
+       <rect>
+        <x>132</x>
+        <y>36</y>
+        <width>251</width>
+        <height>174</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: MEP Lower Limbs module. Transcranial stimulation on the scalp with a
+train of pulses and Emg-triggered recording from the relevant target muscles.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_DWAVE">
+     <attribute name="title">
+      <string>D-wave</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit_15">
+      <property name="geometry">
+       <rect>
+        <x>134</x>
+        <y>38</y>
+        <width>251</width>
+        <height>174</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>D wave simulation with scalp electrical stimulation and recording with
+electrodes on dural space on proximal site and distal site of the spinal cord.
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoDwave">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateTime_15">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>D-Wave Simulator</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_VEP">
+     <attribute name="title">
+      <string>VEP</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>VEP Simulator with Flash Stimuli</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoVep">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_14">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: VEP module. The visual evoked potential is produced by a light flash
+stimulation using an LED device on one eye, generally in alternating mode to
+obtain direct information about the visual pathway for each side.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_BAEP">
+     <attribute name="title">
+      <string>BAEP</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;BAEP Simulator (Brainstem Acoustic Evoked Potentials)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoBaep">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_13">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: BAEP module. Simulation of the brainstem response activating the
+cochlear nuclei and pontine structures involved, following unilateral acoustic
+stimulation in alternating mode to get information from both sides of the
+afferent auditory pathway.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_DCS">
+     <attribute name="title">
+      <string>DCS</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>DCS: Direct Current Stimulation</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoDCS">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>133</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: DCS module. Direct current stimulation. Usually performed using a
+monopolar or bipolar stimulation electrode (two tips spaced 5-6 mm apart or a
+coaxial spherical type with a diameter of about 1.7 mm). These geometric
+configurations allow stimulation pulses to flow from the cathode (in the case
+of the coaxial tip: connected to the central tip) and the anode (connected to
+the peripheral tip) to the excitable nerve tissue below. This configuration
+allows for extremely focal and precise stimulation of the structures to be
+tested: it can be a peripheral or cranial nerve trunk (e.g., facial nerve in
+the posterior cranial fossa) or the posterior columns of the spinal cord or the
+entry zone of the posterior horns. Each of these settings requires a different
+type of response recording, fundamentally reducible to two categories: motor
+responses recordable from target muscles and sensory responses recordable at
+the cortical level or from the scalp in the region/area corresponding to S1, 2,
+3.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_EEG">
+     <attribute name="title">
+      <string>EEG</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>EEG: EEG Signal Simulator</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoEeg">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>132</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: EEG module. The signal recorded from a real recording session with a
+32-channel device at a 512 Hz sampling rate is used in the simulation. It is
+possible to verify the signal characteristics, filtering, the presence of
+specific artifacts, and the effects due to different referencing methods of the
+channels used. Issues related to the spectral content of the signals and the
+evaluation of auxiliary signals such as EOG and ECG are also illustrated.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_EcoG">
+     <attribute name="title">
+      <string>ECoG</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>ECoG: Electrocorticography Signal Sim.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoEcog">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_11">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: ECoG module. The electrocorticographic signal is produced in two
+different modes: spontaneous cortical activity and cortico-cortical evoked
+activity.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_EMG">
+     <attribute name="title">
+      <string>EMG</string>
+     </attribute>
+     <widget class="QLabel" name="labelDateTime_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>EMG: EMG Signal Simulator</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoEmg">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_12">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: EMG module. The EMG signal refers to a recording methodology typical
+of surgical sessions. Subcutaneous needle electrodes (a pair for each muscle to
+be monitored) are used, applied near the motor point of the muscle belly. The
+system allows viewing both spontaneously generated activity (free running) and
+activity triggered by an event: typically, the stimulation of the muscle's
+motor nerve (cranial or peripheral) by the surgeon.
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_CAP">
+     <attribute name="title">
+      <string>CAP</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>133</x>
+        <y>40</y>
+        <width>251</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="markdown">
+       <string>ION-Sim: CAP module. The compound action potential (CAP) of the peripheral
+nerve (myelinated fibers), is generated by saltatory conduction, through the
+nodes of Ranvier. A set of single-fiber action potentials (SFAPs) is produced,
+the number and shape of which correlate to the number and type of fibers
+composing the nerve at the stimulation point. The set of single-fiber
+potentials (SFAPs) starts at the &quot;start,&quot; i.e., the stimulation point, and they
+all travel together towards the arrival point, equivalent to the recording
+electrode site. During travel, since fibers have different diameters and
+conduction velocities have a linear dependence on fiber diameter, they will
+arrive at different and increasingly later times, depending on the conduction
+velocity of the individual fibers. Therefore, the greater the conduction
+distance, the greater the dispersion of the SFAPs upon arrival, due to the
+presence of a spectrum of conduction velocities of the nerve fibers, strictly
+correlated to their myelinated axonal diameters.
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelLogoCap">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>40</y>
+        <width>110</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelDateTime_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>375</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(153, 193, 241);</string>
+      </property>
+      <property name="text">
+       <string>CAP: Compound Action Potential Sim.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="leftMargin">
+      <number>5</number>
+     </property>
+     <property name="rightMargin">
+      <number>5</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="pushBtHelp">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(28, 113, 216);
+</string>
+       </property>
+       <property name="text">
+        <string>Help</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushBtGemini">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(28, 113, 216);
+</string>
+       </property>
+       <property name="text">
+        <string>Gemini</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushBtSetup">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(28, 113, 216);
+</string>
+       </property>
+       <property name="text">
+        <string>Setup</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushBtExit">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(28, 113, 216);
+</string>
+       </property>
+       <property name="text">
+        <string>Exit...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

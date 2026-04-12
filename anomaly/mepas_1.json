@@ -1,0 +1,55 @@
+{
+  "info": "Template to configure a CMAP response latency anomaly: all examined muscles. Correct answer: Central Cause",
+
+  "metadata_db_mapping": {
+    "comment": "label in table scenari_anomaly",
+    "db_label_id": "MEPAS_1",
+    "db_trigger_type": "stim"
+  },
+
+  "id": "MEPas_latency_augm",
+  "description": "20% MEP latency augmentation. Cause: Central vs. Peripheral",
+  "metadata_ui": {
+    "db_label_id": "MEP_1",
+    "question": "You have noticed an augment of latency of cmaps. What is the cause?",
+    "correct_answer": "Central cause",
+    "distractors": ["Grounding issue", "Sub-threshold stimulation", "Displaced electrode"],
+    "points_value": 10,
+    "difficulty_level": 1
+  },
+
+  "timing_control": {
+    "trigger_type": "Timer",
+    "time_model": "single",
+    "trigger_time_s": 15.0,
+    "repeat_interval_s": 0.0,
+    "duration_s": 10.0
+  },
+
+  "anom_config": {
+    "active": true,
+
+    "_comment": "Parameters for ArtifactGenerator: amplitude and latency",
+    "type": "EP_MODIFICATION",
+    "target_signal": "DISTAL",
+
+    "amplitude_factor": 0.9,
+    "latency_shift_ms": 5.0,
+
+    "noise_amplitude": 0.0,
+    "base_value_offset": 0.0,
+
+    "_comment_ui": "Parameters used only for user feedback/scoring logic",
+    "expected_action": "WARN_SURGEON"
+  },
+
+   "learning_assessment": {
+    "question": "You have noticed a 20% augmentation in latency of cmaps. What is the most likely cause?",
+    "correct_answer": "Central cause",
+    "distractors": [
+      "Grounding issue",
+      "Sub-threshold stimulation",
+      "Displaced recording electrode"
+    ]
+  }
+}

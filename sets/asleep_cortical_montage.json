@@ -1,0 +1,15 @@
+{
+    "surgery_type": "Craniotomy",
+    "location": "Asleep/Cortical setup",
+    "description": "Custom configuration modified.",
+    "active_modules": [
+        "ANESTHESIA",
+        "EEG",
+        "ECOG",
+        "MEP_CONTRA",
+        "SEP_UL",
+        "SEP_LL",
+        "EMG_FREE",
+        "EMG_CRANIAL"
+    ]
+}

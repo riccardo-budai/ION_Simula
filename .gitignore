@@ -1,0 +1,10 @@
+# Project exclude paths
+/dataIOM/
+/ecogDataSets/
+/eegDataSets/
+/etc/
+/help_docs/
+/mne/
+/prompts/
+/reports_pdf/
+/vtk/

@@ -1,0 +1,53 @@
+{
+  "description": "Modello base per la configurazione di una nuova anomalia di simulazione. TUTTI i campi devono essere popolati.",
+  
+  "metadata_db_mapping": {
+    "db_label_id": "CAP_2",
+    "db_trigger_type": "none"
+  },
+  
+  "timing_control": {
+    "schema_temporale": "timer",
+    "time_modal": "singola",
+    "trigger_delay_ms": 5000,
+    "random_variance_ms": 0
+  },
+  
+  "injection_parameters": {
+    "target_signal_affected": "S1_CORTICAL",
+    "effect_type": "LATENCY_SHIFT",
+    "anomaly_magnitude": 50,
+    "magnitude_unit": "percentuale_ampiezza",
+    "appearance_pct": 100
+  },
+  
+  "scenario_specific_config": {
+    "note": "Parametri simula demielinizzazione per lo scenario (es. quali fibre nervose sono colpite, quale onda specifica viene alterata, ecc.).",
+    "cap_filter": {
+       "low": "5.0",
+       "higth": "1500"
+    },
+    "stim_freq": {
+       "isi": "250"
+    },
+    "demielination": {
+       "velocities": ["20-40", "50-65"],
+       "pct_damage": "50-100"
+    },
+    "multi_sites": {
+       "stimulus": ["wrist", "ankle"],
+       "record": ["wrist", "elbow", "armpit", "Erb point", "ankle", "poplite"]
+    }
+  },
+  
+  "learning_assessment": {
+    "question": "Hai notato una dispersione del segnale CAP polifasia. Causa più probabile?",
+    "correct_answer": "Demielinizzazione focale",
+    "distractors": [
+      "Problema di messa a terra",
+      "Stimolazione sottosoglia",
+      "Elettrodo di registrazione spostato",
+      "Blocco di conduzione"
+    ]
+  }
+}

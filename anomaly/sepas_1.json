@@ -1,0 +1,54 @@
+{
+  "description": "Modello base per la configurazione una anomalia di ampiezza del complesso N20-P25. Risposta corretta : Causa centrale",
+  
+  "metadata_db_mapping": {
+    "db_label_id": "SEP_1",
+    "db_trigger_type": "stim"
+  },
+  
+  "id": "SEP_Amp_Drop_50",
+  "anom_config": {
+    "duration_s": 10.0,
+    "amplitude_factor": 0.3,       // Riduce ampiezza al 30%
+    "latency_shift_ms": 2.5,       // Ritarda di 2.5 ms
+    "morphology_smoothing": true,  // Arrotonda i picchi
+    "smoothing_cutoff_hz": 150.0,
+    "noise_amplitude": 10.0,
+    "expected_action": "WARN_SURGEON"
+  },
+  
+  "timing_control": {
+    "schema_temporale": "timer",
+    "time_modal": "singola",
+    "trigger_delay_ms": 10000,
+    "random_variance_ms": 0
+  },
+  
+  "injection_parameters": {
+    "target_signal_affected": "S1_CORTICAL",
+    "effect_type": "LATENCY_SHIFT",
+    "anomaly_magnitude": 50,
+    "magnitude_unit": "percentuale_ampiezza",
+    "appearance_pct": 100
+  },
+  
+  "scenario_specific_config": {
+    "note": "Aggiungere qui parametri specifici per lo scenario",
+    "waves_affected": ["N20", "P25"],
+    "target_channel": "N20",
+    "amplitude_reduction_percent": 50,
+    "noise_increase_percent": 10
+  },
+  
+  "learning_assessment": {
+    "question": "Hai notato una riduzione del 50% dell'ampiezza di N20. Qual è la causa più probabile?",
+    "correct_answer": "Causa centrale",
+    "distractors": [
+      "Problema di messa a terra",
+      "Stimolazione sottosoglia",
+      "Elettrodo di registrazione spostato"
+    ]
+  }
+  
+}
+

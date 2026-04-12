@@ -1,0 +1,13 @@
+{
+    "surgery_type": "Craniotomy",
+    "location": "Subtentorial setup",
+    "description": "Custom configuration modified.",
+    "active_modules": [
+        "ANESTHESIA",
+        "MEP_CONTRA",
+        "SEP_UL",
+        "SEP_LL",
+        "BAEP",
+        "EMG_CRANIAL"
+    ]
+}

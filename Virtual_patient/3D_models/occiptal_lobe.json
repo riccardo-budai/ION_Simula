@@ -1,0 +1,50 @@
+[
+    {
+        "object_name": "MM251_BP58200_FMA72678_Left lateral occipital gyrus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM251_BP58200_FMA72678_Left lateral occipital gyrus.obj"
+    },
+    {
+        "object_name": "MM252M_BP58183_FMA72681_Right lingual gyrus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM252M_BP58183_FMA72681_Right lingual gyrus.obj"
+    },
+    {
+        "object_name": "MM245_BP58222_FMA72676_Left superior occipital gyrus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM245_BP58222_FMA72676_Left superior occipital gyrus.obj"
+    },
+    {
+        "object_name": "MM252_BP58173_FMA72682_Left lingual gyrus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM252_BP58173_FMA72682_Left lingual gyrus.obj"
+    },
+    {
+        "object_name": "MM251M_BP58206_FMA72677_Right lateral occipital gyrus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM251M_BP58206_FMA72677_Right lateral occipital gyrus.obj"
+    },
+    {
+        "object_name": "MM245M_BP58187_FMA72675_Right superior occipital gyrus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM245M_BP58187_FMA72675_Right superior occipital gyrus.obj"
+    },
+    {
+        "object_name": "MM243_BP58184_FMA72680_Left cuneus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM243_BP58184_FMA72680_Left cuneus.obj"
+    },
+    {
+        "object_name": "MM243M_BP58202_FMA72679_Right cuneus.obj",
+        "category": "Lobe: Occipital",
+        "color_hex": "#FF6347",
+        "file_path": "3D_data/MM243M_BP58202_FMA72679_Right cuneus.obj"
+    }
+]

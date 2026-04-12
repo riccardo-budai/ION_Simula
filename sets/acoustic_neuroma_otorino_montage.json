@@ -1,0 +1,161 @@
+{
+    "surgery_type": "otorynolaringology_surgery_ent",
+    "location": "acoustic neuroma resection",
+    "laterality": "Right",
+    "description": "Custom configuration (Modified)",
+    "active_modules": [
+        "ANESTHESIA",
+        "SEP_UpperLimb",
+        "BAEP",
+        "EMG_FREE",
+        "EMG_TRIGGERED",
+        "EMG_CRANIAL"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "Orb. Oculi (+)",
+            "side": "Right"
+        },
+        "CH2": {
+            "name": "Orb. Oculi (-)",
+            "side": "Right"
+        },
+        "CH3": {
+            "name": "Orb. Oris (+)",
+            "side": "Right"
+        },
+        "CH4": {
+            "name": "Orb. Oris (-)",
+            "side": "Right"
+        },
+        "CH5": {
+            "name": "Mentalis (+)",
+            "side": "Right"
+        },
+        "CH6": {
+            "name": "Mentalis (-)",
+            "side": "Right"
+        },
+        "CH7": {
+            "name": "Trapezius (+)",
+            "side": "Right"
+        },
+        "CH8": {
+            "name": "Trapezius (-)",
+            "side": "Right"
+        },
+        "CH9": {
+            "name": "APB (+)",
+            "side": "Left"
+        },
+        "CH10": {
+            "name": "APB (-)",
+            "side": "Left"
+        },
+        "CH11": {
+            "name": "ADM (+)",
+            "side": "Left"
+        },
+        "CH12": {
+            "name": "ADM (-)",
+            "side": "Left"
+        },
+        "CH13": {
+            "name": "Biceps (+)",
+            "side": "Left"
+        },
+        "CH14": {
+            "name": "Biceps (-)",
+            "side": "Left"
+        },
+        "CH15": {
+            "name": "Deltoid (+)",
+            "side": "Left"
+        },
+        "CH16": {
+            "name": "Deltoid (-)",
+            "side": "Left"
+        },
+        "CH17": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Left"
+        },
+        "CH18": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Left"
+        },
+        "CH19": {
+            "name": "Abd. Hallucis (+)",
+            "side": "Left"
+        },
+        "CH20": {
+            "name": "Abd. Hallucis (-)",
+            "side": "Left"
+        },
+        "CH21": {
+            "name": "Quadriceps (+)",
+            "side": "Left"
+        },
+        "CH22": {
+            "name": "Quadriceps (-)",
+            "side": "Left"
+        },
+        "CH23": {
+            "name": "APB (+)",
+            "side": "Right"
+        },
+        "CH24": {
+            "name": "APB (-)",
+            "side": "Right"
+        },
+        "CH25": {
+            "name": "ADM (+)",
+            "side": "Right"
+        },
+        "CH26": {
+            "name": "ADM (-)",
+            "side": "Right"
+        },
+        "CH27": {
+            "name": "Biceps (+)",
+            "side": "Right"
+        },
+        "CH28": {
+            "name": "Biceps (-)",
+            "side": "Right"
+        },
+        "CH29": {
+            "name": "Deltoid (+)",
+            "side": "Right"
+        },
+        "CH30": {
+            "name": "Deltoid (-)",
+            "side": "Right"
+        },
+        "CH31": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Right"
+        },
+        "CH32": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Right"
+        }
+    },
+    "stimulator_mapping": {
+        "STIM1": {
+            "type": "Electrical (Probe)",
+            "site": "Handheld Probe",
+            "notes": "Monopolar/Bipolar (Surgeon)"
+        },
+        "STIM2": {
+            "type": "Acoustic (Click)",
+            "site": "Ear Insert (L)",
+            "notes": "Broadband Click"
+        },
+        "STIM3": {
+            "type": "Acoustic (Click)",
+            "site": "Ear Insert (R)",
+            "notes": "Broadband Click"
+        }
+    }
+}

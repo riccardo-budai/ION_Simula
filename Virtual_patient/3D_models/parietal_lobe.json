@@ -1,0 +1,62 @@
+[
+    {
+        "object_name": "FJ3850_BP58212_FMA72665_Right postcentral gyrus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/FJ3850_BP58212_FMA72665_Right postcentral gyrus.obj"
+    },
+    {
+        "object_name": "MM242_BP58129_FMA72670_Left angular gyrus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM242_BP58129_FMA72670_Left angular gyrus.obj"
+    },
+    {
+        "object_name": "MM247_BP58171_FMA72672_Left superior parietal lobule.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM247_BP58171_FMA72672_Left superior parietal lobule.obj"
+    },
+    {
+        "object_name": "MM246_BP58198_FMA72674_Left precuneus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM246_BP58198_FMA72674_Left precuneus.obj"
+    },
+    {
+        "object_name": "FJ3849_BP58224_FMA72666_Left postcentral gyrus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/FJ3849_BP58224_FMA72666_Left postcentral gyrus.obj"
+    },
+    {
+        "object_name": "MM242M_BP58135_FMA72669_Right angular gyrus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM242M_BP58135_FMA72669_Right angular gyrus.obj"
+    },
+    {
+        "object_name": "MM250_BP58138_FMA72668_Left supramarginal gyrus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM250_BP58138_FMA72668_Left supramarginal gyrus.obj"
+    },
+    {
+        "object_name": "MM250M_BP58095_FMA72667_Right supramarginal gyrus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM250M_BP58095_FMA72667_Right supramarginal gyrus.obj"
+    },
+    {
+        "object_name": "MM246M_BP58168_FMA72673_Right precuneus.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM246M_BP58168_FMA72673_Right precuneus.obj"
+    },
+    {
+        "object_name": "MM247M_BP58216_FMA72671_Right superior parietal lobule.obj",
+        "category": "Lobe: Parietal",
+        "color_hex": "#2E8B57",
+        "file_path": "3D_data/MM247M_BP58216_FMA72671_Right superior parietal lobule.obj"
+    }
+]

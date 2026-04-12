@@ -1,0 +1,62 @@
+[
+    {
+        "object_name": "FJ3840_BP58164_FMA72655_Right middle frontal gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3840_BP58164_FMA72655_Right middle frontal gyrus.obj"
+    },
+    {
+        "object_name": "FJ7528M_BP58098_FMA72659_Right straight gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ7528M_BP58098_FMA72659_Right straight gyrus.obj"
+    },
+    {
+        "object_name": "FJ3880_BP58162_FMA72653_Right superior frontal gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3880_BP58162_FMA72653_Right superior frontal gyrus.obj"
+    },
+    {
+        "object_name": "FJ3879_BP58158_FMA72654_Left superior frontal gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3879_BP58158_FMA72654_Left superior frontal gyrus.obj"
+    },
+    {
+        "object_name": "FJ3801_BP58201_FMA72658_Left inferior frontal gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3801_BP58201_FMA72658_Left inferior frontal gyrus.obj"
+    },
+    {
+        "object_name": "FJ3839_BP58174_FMA72656_Left middle frontal gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3839_BP58174_FMA72656_Left middle frontal gyrus.obj"
+    },
+    {
+        "object_name": "FJ3852_BP58221_FMA72662_Left precentral gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3852_BP58221_FMA72662_Left precentral gyrus.obj"
+    },
+    {
+        "object_name": "FJ3853_BP58189_FMA72661_Right precentral gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3853_BP58189_FMA72661_Right precentral gyrus.obj"
+    },
+    {
+        "object_name": "FJ3802_BP58213_FMA72657_Right inferior frontal gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ3802_BP58213_FMA72657_Right inferior frontal gyrus.obj"
+    },
+    {
+        "object_name": "FJ7528_BP58105_FMA72660_Left straight gyrus.obj",
+        "category": "Lobe: Frontal",
+        "color_hex": "#4169E1",
+        "file_path": "3D_data/FJ7528_BP58105_FMA72660_Left straight gyrus.obj"
+    }
+]

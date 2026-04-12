@@ -1,0 +1,55 @@
+{
+  "info": "Template to configure a DWave response amplitude anomaly: proximal. Correct answer: Electrode dislocation",
+
+  "metadata_db_mapping": {
+    "comment": "label in table scenari_anomaly",
+    "db_label_id": "MEPDW_3",
+    "db_trigger_type": "stim"
+  },
+
+  "id": "MEPdw_amp_reduction_proximal",
+  "description": "50% DWave amplitude reduction at proximal position. Cause: electrode dislocation",
+  "metadata_ui": {
+    "db_label_id": "MEPDW_3",
+    "question": "You have noticed a 50% reduction in amplitude on proximal site. What is the cause?",
+    "correct_answer": "Electrode dislocation",
+    "distractors": ["Grounding issue", "Sub-threshold stimulation", "Central deficit"],
+    "points_value": 30,
+    "difficulty_level": 2
+  },
+
+  "timing_control": {
+    "trigger_type": "Timer",
+    "time_model": "single",
+    "trigger_time_s": 15.0,
+    "repeat_interval_s": 0.0,
+    "duration_s": 10.0
+  },
+
+  "anom_config": {
+    "active": true,
+
+    "_comment": "Parameters for ArtifactGenerator",
+    "type": "EP_MODIFICATION",
+    "target_signal": "PROXIMAL",
+
+    "amplitude_factor": 0.0,
+    "latency_shift_ms": 0.0,
+
+    "noise_amplitude": 0.0,
+    "base_value_offset": 0.0,
+
+    "_comment_ui": "Parameters used only for user feedback/scoring logic",
+    "expected_action": "WARN_SURGEON"
+  },
+
+   "learning_assessment": {
+    "question": "You have noticed absence of DWave on proximal site. What is the most likely cause?",
+    "correct_answer": "Proximal electrode displaced",
+    "distractors": [
+      "Grounding issue",
+      "Sub-threshold stimulation",
+      "Central deficit"
+    ]
+  }
+}

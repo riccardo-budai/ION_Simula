@@ -1,0 +1,12 @@
+{
+    "surgery_type": "Select Type...",
+    "location": "",
+    "laterality": "Right",
+    "description": "Custom configuration (Modified)",
+    "active_modules": [
+        "ANESTHESIA",
+        "VIRTUAL_PATIENT"
+    ],
+    "channel_mapping": {},
+    "stimulator_mapping": {}
+}

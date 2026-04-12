@@ -1,0 +1,44 @@
+{
+  "description": "ECoG (ElectroCorticoGraphy) configuration for epileptic activity",
+  
+  "metadata_db_mapping": {
+    "db_label_id": "SEP_1",
+    "db_trigger_type": "stim"
+  },
+  
+  "timing_control": {
+    "schema_temporale": "timer",
+    "time_modal": "singola",
+    "trigger_delay_ms": 5000,
+    "random_variance_ms": 0
+  },
+  
+  "injection_parameters": {
+    "target_signal_affected": "S1_CORTICAL",
+    "effect_type": "AMPLITUDE_REDUCTYION",
+    "anomaly_magnitude": 50,
+    "magnitude_unit": "percent_amplitude",
+    "appearance_pct": 100
+  },
+  
+  "scenario_specific_config": {
+    "note": "ECoG scenario: epileptic acticity",
+    "anomalies": [
+        {
+            "target_simulator": "ECOG",
+            "channels": ["R1-El1", "R1-El8"], 
+            "type": "EPILEPSY",
+            "active": true,
+            "frequency": 3.0,
+            "amplitude": 50.0
+        },
+        {
+            "target_simulator": "ALL",
+            "type": "BOVIE",
+            "active": true,
+            "amplitude": 10.0,
+            "probability": 0.02
+        }
+  ]
+  }
+}

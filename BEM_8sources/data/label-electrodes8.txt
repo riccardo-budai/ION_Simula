@@ -1,0 +1,165 @@
+"""
+un modello di sorgente sparsa/parziale in MNE-Python, focalizzandoci sulla riduzione dello spazio delle sorgenti
+a specifiche Regioni di Interesse (ROI), che è l'approccio matematicamente più stabile per 8 canali.
+sLORETA o dSPM su questo spazio ridotto
+"""
+"""
+<Label | fsaverage, 'bankssts-lh', lh : 2137 vertices>,
+<Label | fsaverage, 'bankssts-rh', rh : 2196 vertices>,
+
+<Label | fsaverage, 'caudalanteriorcingulate-lh', lh : 1439 vertices>,
+<Label | fsaverage, 'caudalanteriorcingulate-rh', rh : 1608 vertices>,
+
+<Label | fsaverage, 'caudalmiddlefrontal-lh', lh : 3736 vertices>,
+<Label | fsaverage, 'caudalmiddlefrontal-rh', rh : 3494 vertices>,
+
+<Label | fsaverage, 'cuneus-lh', lh : 1630 vertices>,
+<Label | fsaverage, 'cuneus-rh', rh : 1638 vertices>,
+
+<Label | fsaverage, 'entorhinal-lh', lh : 1102 vertices>,
+<Label | fsaverage, 'entorhinal-rh', rh : 902 vertices>,
+
+<Label | fsaverage, 'frontalpole-lh', lh : 272 vertices>,
+<Label | fsaverage, 'frontalpole-rh', rh : 369 vertices>,
+
+<Label | fsaverage, 'fusiform-lh', lh : 4714 vertices>,
+<Label | fsaverage, 'fusiform-rh', rh : 4661 vertices>,
+
+<Label | fsaverage, 'inferiorparietal-lh', lh : 7871 vertices>,
+<Label | fsaverage, 'inferiorparietal-rh', rh : 9676 vertices>,
+
+<Label | fsaverage, 'inferiortemporal-lh', lh : 4415 vertices>,
+<Label | fsaverage, 'inferiortemporal-rh', rh : 4198 vertices>,
+
+<Label | fsaverage, 'insula-lh', lh : 5229 vertices>,
+<Label | fsaverage, 'insula-rh', rh : 5090 vertices>,
+
+<Label | fsaverage, 'isthmuscingulate-lh', lh : 2531 vertices>,
+<Label | fsaverage, 'isthmuscingulate-rh', rh : 2388 vertices>,
+
+<Label | fsaverage, 'lateraloccipital-lh', lh : 6379 vertices>,
+<Label | fsaverage, 'lateraloccipital-rh', rh : 5963 vertices>,
+
+<Label | fsaverage, 'lateralorbitofrontal-lh', lh : 4188 vertices>,
+<Label | fsaverage, 'lateralorbitofrontal-rh', rh : 4354 vertices>,
+
+<Label | fsaverage, 'lingual-lh', lh : 4205 vertices>,
+<Label | fsaverage, 'lingual-rh', rh : 3894 vertices>,
+
+<Label | fsaverage, 'medialorbitofrontal-lh', lh : 2653 vertices>,
+<Label | fsaverage, 'medialorbitofrontal-rh', rh : 2801 vertices>,
+
+<Label | fsaverage, 'middletemporal-lh', lh : 4452 vertices>,
+<Label | fsaverage, 'middletemporal-rh', rh : 5057 vertices>,
+
+<Label | fsaverage, 'paracentral-lh', lh : 3294 vertices>,
+<Label | fsaverage, 'paracentral-rh', rh : 3831 vertices>,
+
+<Label | fsaverage, 'parahippocampal-lh', lh : 1838 vertices>,
+<Label | fsaverage, 'parahippocampal-rh', rh : 1742 vertices>,
+
+<Label | fsaverage, 'parsopercularis-lh', lh : 3119 vertices>,
+<Label | fsaverage, 'parsopercularis-rh', rh : 2472 vertices>,
+
+<Label | fsaverage, 'parsorbitalis-lh', lh : 956 vertices>,
+<Label | fsaverage, 'parsorbitalis-rh', rh : 946 vertices>,
+
+<Label | fsaverage, 'parstriangularis-lh', lh : 2046 vertices>,
+<Label | fsaverage, 'parstriangularis-rh', rh : 2380 vertices>,
+
+<Label | fsaverage, 'pericalcarine-lh', lh : 1912 vertices>,
+<Label | fsaverage, 'pericalcarine-rh', rh : 1823 vertices>,
+
+<Label | fsaverage, 'postcentral-lh', lh : 9519 vertices>,
+<Label | fsaverage, 'postcentral-rh', rh : 9138 vertices>,
+
+<Label | fsaverage, 'posteriorcingulate-lh', lh : 3266 vertices>,
+<Label | fsaverage, 'posteriorcingulate-rh', rh : 2994 vertices>,
+
+<Label | fsaverage, 'precentral-lh', lh : 10740 vertices>,
+<Label | fsaverage, 'precentral-rh', rh : 10705 vertices>,
+
+<Label | fsaverage, 'precuneus-lh', lh : 7308 vertices>,
+<Label | fsaverage, 'precuneus-rh', rh : 7975 vertices>,
+
+<Label | fsaverage, 'rostralanteriorcingulate-lh', lh : 1350 vertices>,
+<Label | fsaverage, 'rostralanteriorcingulate-rh', rh : 1051 vertices>,
+
+<Label | fsaverage, 'rostralmiddlefrontal-lh', lh : 7243 vertices>,
+<Label | fsaverage, 'rostralmiddlefrontal-rh', rh : 7864 vertices>,
+
+<Label | fsaverage, 'superiorfrontal-lh', lh : 12179 vertices>,
+<Label | fsaverage, 'superiorfrontal-rh', rh : 11878 vertices>,
+
+<Label | fsaverage, 'superiorparietal-lh', lh : 10456 vertices>,
+<Label | fsaverage, 'superiorparietal-rh', rh : 10222 vertices>,
+
+<Label | fsaverage, 'superiortemporal-lh', lh : 7271 vertices>,
+<Label | fsaverage, 'superiortemporal-rh', rh : 6868 vertices>,
+
+<Label | fsaverage, 'supramarginal-lh', lh : 8600 vertices>,
+<Label | fsaverage, 'supramarginal-rh', rh : 8150 vertices>,
+
+<Label | fsaverage, 'temporalpole-lh', lh : 839 vertices>,
+<Label | fsaverage, 'temporalpole-rh', rh : 817 vertices>,
+
+<Label | fsaverage, 'transversetemporal-lh', lh : 1064 vertices>,
+<Label | fsaverage, 'transversetemporal-rh', rh : 781 vertices>,
+
+<Label | fsaverage, 'unknown-lh', lh : 2 vertices>]
+"""
+"""
+selected_channels = ['FC3', 'CP3', 'FT7', 'TP7',  # Emisfero Sinistro
+                     'FC4', 'CP4', 'FT8', 'TP8']  # Emisfero Destro
+"""
+
+1. FC3 / FC4 (Area Fronto-Centrale)
+Questi elettrodi si trovano sopra la corteccia premotoria e il lobo frontale posteriore.
+    ROI Consigliata: caudalmiddlefrontal (Giro Frontale Medio Caudale)
+        Alternativa: precentral (Giro Precentrale/Motorio) se il task è puramente motorio.
+        Riferimento file: caudalmiddlefrontal-lh / caudalmiddlefrontal-rh.
+
+2. CP3 / CP4 (Area Centro-Parietale)
+Posizionati sopra il lobulo parietale inferiore, un'area chiave per l'integrazione sensomotoria.
+    ROI Consigliata: supramarginal (Giro Sovramarginale)
+        Motivazione: Il giro sovramarginale costituisce la porzione anteriore del lobulo parietale inferiore, situato esattamente sotto l'area CP.
+        Riferimento file: supramarginal-lh / supramarginal-rh.
+
+3. FT7 / FT8 (Area Fronto-Temporale)
+Questi elettrodi coprono la giunzione tra il lobo frontale inferiore e il polo temporale anteriore (spesso associati all'area di Broca a sinistra).
+    ROI Consigliata: parsopercularis (Parte Opercolare del Giro Frontale Inferiore)
+        Motivazione: È l'etichetta anatomica che meglio descrive l'area fronto-temporale inferiore posteriore.
+        Riferimento file: parsopercularis-lh / parsopercularis-rh.
+
+4. TP7 / TP8 (Area Temporo-Parietale)
+Situati sopra la regione temporale posteriore, vicino alla giunzione con il parietale (area di Wernicke a sinistra).
+    ROI Consigliata: middletemporal (Giro Temporale Medio) o bankssts
+        Motivazione: Il giro temporale medio è una vasta area che cattura bene l'attività laterale posteriore.
+        Riferimento file: middletemporal-lh / middletemporal-rh.
+
+target_labels_names = [
+    # FC3
+    'caudalmiddlefrontal-lh',   # (62.6mm)
+    'superiorfrontal-lh',       # (74.5mm)
+    # CP3
+    'postcentral-lh',           # (57.9mm)
+    'precentral-lh',            # (58.9mm)
+    # FT7
+    'parsopercularis-lh',       # (42.1mm)
+    'rostralmiddlefrontal-lh',  # (47.7mm)
+    # TP7
+    'supramarginal-lh',         # (35.6mm)
+    # 'postcentral-lh',           # (38.9mm)
+    # FC4
+    'caudalmiddlefrontal-rh',   # (62.8mm)
+    'superiorfrontal-rh',       # (72.4mm)
+    # CP4
+    'precentral-rh',            # (56.2mm)
+    'postcentral-rh',           # (57.3mm)
+    # FT8
+    'parsopercularis-rh',       # (41.1mm)
+    'parstriangularis-rh',      # (43.1mm)
+    # TP8
+    'supramarginal-rh'         # (28.5mm)
+    # 'postcentral-rh'            # (36.8mm)
+]

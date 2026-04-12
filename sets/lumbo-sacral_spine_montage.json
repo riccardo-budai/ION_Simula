@@ -1,0 +1,161 @@
+{
+    "surgery_type": "Spine",
+    "location": "Lumbo/Sacral setup",
+    "laterality": "Paramedian R",
+    "description": "General anesthesia with Mep lower limbs, Sep lower limbs, Emg free run and Emg triggered",
+    "active_modules": [
+        "ANESTHESIA",
+        "MEP_LL",
+        "SEP_LL",
+        "EMG_FREE",
+        "EMG_TRIGGERED"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "SEP Popliteal Fossa",
+            "side": "Bi"
+        },
+        "CH2": {
+            "name": "SEP L1 (N22)",
+            "side": "Bi"
+        },
+        "CH3": {
+            "name": "SEP Cz' (P37)",
+            "side": "Bi"
+        },
+        "CH4": {
+            "name": "APB (+)",
+            "side": "Left"
+        },
+        "CH5": {
+            "name": "APB (-)",
+            "side": "Left"
+        },
+        "CH6": {
+            "name": "ADM (+)",
+            "side": "Left"
+        },
+        "CH7": {
+            "name": "ADM (-)",
+            "side": "Left"
+        },
+        "CH8": {
+            "name": "Biceps (+)",
+            "side": "Left"
+        },
+        "CH9": {
+            "name": "Biceps (-)",
+            "side": "Left"
+        },
+        "CH10": {
+            "name": "Deltoid (+)",
+            "side": "Left"
+        },
+        "CH11": {
+            "name": "Deltoid (-)",
+            "side": "Left"
+        },
+        "CH12": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Left"
+        },
+        "CH13": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Left"
+        },
+        "CH14": {
+            "name": "Abd. Hallucis (+)",
+            "side": "Left"
+        },
+        "CH15": {
+            "name": "Abd. Hallucis (-)",
+            "side": "Left"
+        },
+        "CH16": {
+            "name": "Quadriceps (+)",
+            "side": "Left"
+        },
+        "CH17": {
+            "name": "Quadriceps (-)",
+            "side": "Left"
+        },
+        "CH18": {
+            "name": "APB (+)",
+            "side": "Right"
+        },
+        "CH19": {
+            "name": "APB (-)",
+            "side": "Right"
+        },
+        "CH20": {
+            "name": "ADM (+)",
+            "side": "Right"
+        },
+        "CH21": {
+            "name": "ADM (-)",
+            "side": "Right"
+        },
+        "CH22": {
+            "name": "Biceps (+)",
+            "side": "Right"
+        },
+        "CH23": {
+            "name": "Biceps (-)",
+            "side": "Right"
+        },
+        "CH24": {
+            "name": "Deltoid (+)",
+            "side": "Right"
+        },
+        "CH25": {
+            "name": "Deltoid (-)",
+            "side": "Right"
+        },
+        "CH26": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Right"
+        },
+        "CH27": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Right"
+        },
+        "CH28": {
+            "name": "Abd. Hallucis (+)",
+            "side": "Right"
+        },
+        "CH29": {
+            "name": "Abd. Hallucis (-)",
+            "side": "Right"
+        },
+        "CH30": {
+            "name": "Quadriceps (+)",
+            "side": "Right"
+        },
+        "CH31": {
+            "name": "Quadriceps (-)",
+            "side": "Right"
+        }
+    },
+    "stimulator_mapping": {
+        "STIM1": {
+            "type": "Electrical (HV)",
+            "site": "C3-C4 (Corkscrew)",
+            "notes": "Transcranial (Multipulse)"
+        },
+        "STIM2": {
+            "type": "Electrical (CC)",
+            "site": "Tibial Post. (L)",
+            "notes": "Ankle"
+        },
+        "STIM3": {
+            "type": "Electrical (CC)",
+            "site": "Tibial Post. (R)",
+            "notes": "Ankle"
+        },
+        "STIM4": {
+            "type": "Electrical (Probe)",
+            "site": "Handheld Probe",
+            "notes": "Monopolar/Bipolar (Surgeon)"
+        }
+    }
+}

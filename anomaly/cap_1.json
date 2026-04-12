@@ -1,0 +1,52 @@
+{
+  "description": "Modello base per la configurazione di una nuova anomalia di simulazione.",
+  
+  "metadata_db_mapping": {
+    "db_label_id": "CAP_1",
+    "db_trigger_type": "stim"
+  },
+  
+  "nerve_trunk": ["median", "ulnar", "tibial"],
+  
+  "timing_control": {
+    "schema_temporale": "timer",
+    "time_model": "single",
+    "trigger_delay_ms": 5000,
+    "random_variance_ms": 500
+  },
+  
+  "injection_parameters": {
+    "target_signal_affected": ["wrist", "elbow", "armpit", "erb point", "poplite"],
+    "effect_type": "AXONAL_LOSS",
+    "anomaly_magnitude": 50,
+    "magnitude_unit": "percentuale_ampiezza",
+    "appearance_pct": 100
+  },
+  
+  "scenario_specific_config": {
+    "note": "Aggiungere qui parametri specifici per lo scenario.",
+    "nerve trunk": ["median", "ulnar", "tibial"],
+    "cap_filter": {
+       "low": "5.0",
+       "higth": "1500"
+    },
+    "stim_freq": {
+       "isi": "250",
+       "random": "OFF"
+    },
+    "multi_sites": {
+       "stimulus": ["wrist", "ankle"],
+       "record": ["wrist", "elbow", "armpit", "Erb point", "ankle", "poplite"]
+    }
+  },
+  
+  "learning_assessment": {
+    "question": "Hai notato una riduzione del 50% dell'ampiezza del CAP. Qual è la causa più probabile?",
+    "correct_answer": "Blocco di conduzione",
+    "distractors": [
+      "Problema di messa a terra",
+      "Stimolazione sottosoglia",
+      "Elettrodo di registrazione spostato"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "surgery_type": "Craniotomy",
+    "location": "Cortical setup",
+    "laterality": "Right",
+    "description": "General anesthesia with free Eeg, ECoG from grid pial electrodes, Sep upper left limb, Mep on left upper limb and free Emg",
+    "active_modules": [
+        "EEG",
+        "MEP_UpperLimb",
+        "SEP_UpperLimb",
+        "VIRTUAL_PATIENT"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "EEG C3",
+            "side": "Scalp"
+        },
+        "CH2": {
+            "name": "EEG C4",
+            "side": "Scalp"
+        },
+        "CH3": {
+            "name": "EEG Cz",
+            "side": "Scalp"
+        },
+        "CH4": {
+            "name": "EEG Fz",
+            "side": "Scalp"
+        }
+    },
+    "stimulator_mapping": {}
+}

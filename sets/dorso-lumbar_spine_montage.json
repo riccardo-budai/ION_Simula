@@ -1,0 +1,15 @@
+{
+    "surgery_type": "Spine",
+    "location": "Dorso/Lumbar setup",
+    "laterality": "Paramedian R",
+    "description": "General anesthesia with free Eeg, Mep on lower limbs and Sep lower limbs, DWave proximal and distal sites and free Emg",
+    "active_modules": [
+        "ANESTHESIA",
+        "EEG",
+        "MEP_LL",
+        "SEP_LL",
+        "EMG_FREE",
+        "EMG_TRIGGERED",
+        "DWAVE"
+    ]
+}

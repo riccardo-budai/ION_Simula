@@ -1,0 +1,110 @@
+[
+    {
+        "object_name": "MM259M_BP58194_FMA72691_Right anterior transverse temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM259M_BP58194_FMA72691_Right anterior transverse temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM248M_BP58190_FMA72685_Right middle temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM248M_BP58190_FMA72685_Right middle temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM172_BP58314_FMA74884_Uncus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM172_BP58314_FMA74884_Uncus.obj"
+    },
+    {
+        "object_name": "MM268M_BP58203_FMA72687_Right inferior temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM268M_BP58203_FMA72687_Right inferior temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM173M_BP58314_FMA74884_Uncus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM173M_BP58314_FMA74884_Uncus.obj"
+    },
+    {
+        "object_name": "MM267_BP58180_FMA72684_Left superior temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM267_BP58180_FMA72684_Left superior temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM263M_BP58103_FMA72738_Right posterior parahippocampal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM263M_BP58103_FMA72738_Right posterior parahippocampal gyrus.obj"
+    },
+    {
+        "object_name": "MM267M_BP58179_FMA72683_Right superior temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM267M_BP58179_FMA72683_Right superior temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM259_BP58181_FMA72692_Left anterior transverse temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM259_BP58181_FMA72692_Left anterior transverse temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM263_BP58132_FMA72739_Left posterior parahippocampal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM263_BP58132_FMA72739_Left posterior parahippocampal gyrus.obj"
+    },
+    {
+        "object_name": "MM253_BP58320_FMA72690_Left fusiform gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM253_BP58320_FMA72690_Left fusiform gyrus.obj"
+    },
+    {
+        "object_name": "MM261_BP58217_FMA72694_Left posterior transverse temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM261_BP58217_FMA72694_Left posterior transverse temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM268_BP58157_FMA72688_Left inferior temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM268_BP58157_FMA72688_Left inferior temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM253M_BP58321_FMA72689_Right fusiform gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM253M_BP58321_FMA72689_Right fusiform gyrus.obj"
+    },
+    {
+        "object_name": "MM261M_BP58208_FMA72693_Right posterior transverse temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM261M_BP58208_FMA72693_Right posterior transverse temporal gyrus.obj"
+    },
+    {
+        "object_name": "MM172M_BP58314_FMA74884_Uncus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM172M_BP58314_FMA74884_Uncus.obj"
+    },
+    {
+        "object_name": "MM173_BP58314_FMA74884_Uncus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM173_BP58314_FMA74884_Uncus.obj"
+    },
+    {
+        "object_name": "MM248_BP58186_FMA72686_Left middle temporal gyrus.obj",
+        "category": "Lobe: Temporal",
+        "color_hex": "#FFA500",
+        "file_path": "3D_data/MM248_BP58186_FMA72686_Left middle temporal gyrus.obj"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "surgery_type": "Vascular",
+    "location": "Carotid/Aneurysm",
+    "laterality": "Right",
+    "description": "General anethesia with SEP upper and lower limbs bilateral stimulation e free run Eeg. Mep only on surgical request.",
+    "active_modules": [
+        "ANESTHESIA",
+        "EEG",
+        "VIRTUAL_PATIENT"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "EEG C3",
+            "side": "Scalp"
+        },
+        "CH2": {
+            "name": "EEG C4",
+            "side": "Scalp"
+        },
+        "CH3": {
+            "name": "EEG Cz",
+            "side": "Scalp"
+        },
+        "CH4": {
+            "name": "EEG Fz",
+            "side": "Scalp"
+        }
+    },
+    "stimulator_mapping": {}
+}

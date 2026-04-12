@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/eegDataSets" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/dataIOM" />
+      <excludeFolder url="file://$MODULE_DIR$/ecogDataSets" />
+      <excludeFolder url="file://$MODULE_DIR$/eegDataSets" />
+      <excludeFolder url="file://$MODULE_DIR$/etc" />
+      <excludeFolder url="file://$MODULE_DIR$/help_docs" />
+      <excludeFolder url="file://$MODULE_DIR$/mne" />
+      <excludeFolder url="file://$MODULE_DIR$/prompts" />
+      <excludeFolder url="file://$MODULE_DIR$/reports_pdf" />
+      <excludeFolder url="file://$MODULE_DIR$/vtk" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.12 (IOM_Simula)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,170 @@
+{
+    "surgery_type": "Spine",
+    "location": "Cervical setup",
+    "laterality": "Median",
+    "description": "General anesthesia with free run Eeg, Mep to four libs, Sep upper and lower limbs and Emg free running",
+    "active_modules": [
+        "ANESTHESIA",
+        "MEP_FOUR_LIMB",
+        "SEP_UL",
+        "SEP_LL",
+        "EMG_FREE"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "SEP Erb Point",
+            "side": "Bi"
+        },
+        "CH2": {
+            "name": "SEP Cv7 (N13)",
+            "side": "Bi"
+        },
+        "CH3": {
+            "name": "SEP C3'/C4' (N20)",
+            "side": "Bi"
+        },
+        "CH4": {
+            "name": "SEP Popliteal Fossa",
+            "side": "Bi"
+        },
+        "CH5": {
+            "name": "SEP L1 (N22)",
+            "side": "Bi"
+        },
+        "CH6": {
+            "name": "SEP Cz' (P37)",
+            "side": "Bi"
+        },
+        "CH7": {
+            "name": "APB (+)",
+            "side": "Left"
+        },
+        "CH8": {
+            "name": "APB (-)",
+            "side": "Left"
+        },
+        "CH9": {
+            "name": "ADM (+)",
+            "side": "Left"
+        },
+        "CH10": {
+            "name": "ADM (-)",
+            "side": "Left"
+        },
+        "CH11": {
+            "name": "Biceps (+)",
+            "side": "Left"
+        },
+        "CH12": {
+            "name": "Biceps (-)",
+            "side": "Left"
+        },
+        "CH13": {
+            "name": "Deltoid (+)",
+            "side": "Left"
+        },
+        "CH14": {
+            "name": "Deltoid (-)",
+            "side": "Left"
+        },
+        "CH15": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Left"
+        },
+        "CH16": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Left"
+        },
+        "CH17": {
+            "name": "Abd. Hallucis (+)",
+            "side": "Left"
+        },
+        "CH18": {
+            "name": "Abd. Hallucis (-)",
+            "side": "Left"
+        },
+        "CH19": {
+            "name": "Quadriceps (+)",
+            "side": "Left"
+        },
+        "CH20": {
+            "name": "Quadriceps (-)",
+            "side": "Left"
+        },
+        "CH21": {
+            "name": "APB (+)",
+            "side": "Right"
+        },
+        "CH22": {
+            "name": "APB (-)",
+            "side": "Right"
+        },
+        "CH23": {
+            "name": "ADM (+)",
+            "side": "Right"
+        },
+        "CH24": {
+            "name": "ADM (-)",
+            "side": "Right"
+        },
+        "CH25": {
+            "name": "Biceps (+)",
+            "side": "Right"
+        },
+        "CH26": {
+            "name": "Biceps (-)",
+            "side": "Right"
+        },
+        "CH27": {
+            "name": "Deltoid (+)",
+            "side": "Right"
+        },
+        "CH28": {
+            "name": "Deltoid (-)",
+            "side": "Right"
+        },
+        "CH29": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Right"
+        },
+        "CH30": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Right"
+        },
+        "CH31": {
+            "name": "Abd. Hallucis (+)",
+            "side": "Right"
+        },
+        "CH32": {
+            "name": "Abd. Hallucis (-)",
+            "side": "Right"
+        }
+    },
+    "stimulator_mapping": {
+        "STIM1": {
+            "type": "Electrical (HV)",
+            "site": "C3-C4 (Corkscrew)",
+            "notes": "Transcranial (Multipulse)"
+        },
+        "STIM2": {
+            "type": "Electrical (CC)",
+            "site": "Median Nerve (L)",
+            "notes": "Wrist"
+        },
+        "STIM3": {
+            "type": "Electrical (CC)",
+            "site": "Median Nerve (R)",
+            "notes": "Wrist"
+        },
+        "STIM4": {
+            "type": "Electrical (CC)",
+            "site": "Tibial Post. (L)",
+            "notes": "Ankle"
+        },
+        "STIM5": {
+            "type": "Electrical (CC)",
+            "site": "Tibial Post. (R)",
+            "notes": "Ankle"
+        }
+    }
+}

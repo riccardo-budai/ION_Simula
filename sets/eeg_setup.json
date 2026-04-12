@@ -1,0 +1,28 @@
+{
+    "surgery_type": "Select Type...",
+    "location": "",
+    "laterality": "Right",
+    "description": "Custom configuration (Modified)",
+    "active_modules": [
+        "EEG"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "EEG C3",
+            "side": "Scalp"
+        },
+        "CH2": {
+            "name": "EEG C4",
+            "side": "Scalp"
+        },
+        "CH3": {
+            "name": "EEG Cz",
+            "side": "Scalp"
+        },
+        "CH4": {
+            "name": "EEG Fz",
+            "side": "Scalp"
+        }
+    },
+    "stimulator_mapping": {}
+}

@@ -1,0 +1,71 @@
+{
+  "surgical_procedures": {
+    "brain_surgery": [
+      "skull-based tumor resection",
+      "fronto-temporal tumor resection",
+      "intracranial aneurysm clipping",
+      "intracranial arteriovenous malformation",
+      "microvascular cranial nerve decompression",
+      "peripheral nerve",
+      "posterior fossa tumor resection",
+      "temporo-parietal tumor resection",
+      "supratentorial tumor resection",
+      "chiari malformation",
+      "acoustic neuroma resection"
+    ],
+    "spine_surgery": {
+      "cervical": [
+        "anterior cervical discectomy and fusion",
+        "cervical corpectomy with fusion and instrumentation",
+        "posterior cervical decompression and fusion",
+        "odontoid fracture",
+        "laminoplasty"
+      ],
+      "thoracic": [
+        "anterior thoracic interbody fusion and instrumentation",
+        "thoracic corpectomy with fusion and instrumentation",
+        "thoracic osteotomy",
+        "thoracic laminectomy with or without fusion and instrumentation",
+        "spinal deformity correction",
+        "spinal cord tumor or AVM"
+      ],
+      "lumbar": [
+        "anterior lumbar interbody fusion or diskreplacement",
+        "lumbar corpectomy with fusion and instrumentation",
+        "posterior interbody fusion - PLIF, TLIF",
+        "posterior lateral fusion - pedicle screws",
+        "lumbar laminectomy with fusion and instrumentation",
+        "spinal cord tumor or AVM",
+        "lateral (transpsoas) interbody fusion - XLIF, DLIF, LLIF",
+        "all minimal invasive procedures"
+      ],
+      "sacral": [
+        "excision of tumor",
+        "myelomeningocele",
+        "release of tethered cord"
+      ]
+    },
+    "otorynolaringology_surgery_ent": [
+      "acoustic neuroma resection",
+      "facial nerve decompression",
+      "glomus tumor",
+      "parotidectomy",
+      "revision mastoidectomy",
+      "thyroidectomy",
+      "tympano-mastoidectomy"
+    ],
+    "interventional_radiology": [
+      "embolization of cerebral and spinal aneurysms and arteriovenous malformations",
+      "embolization of traumtic cavernous sinus fistula",
+      "occlusion of brain-supplying arteries",
+      "percutaneous transluminal angioplasty",
+      "spinal angiography"
+    ],
+    "cardiothoracic_vascular_surgery": [
+      "cardiopulmonary bypass and hypothermia",
+      "correction of coarctation",
+      "repair of abdominal aortic aneurysm",
+      "carotid endoarterectomy"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": "eeg diffuse slowing (theta- delta) in all channels",
+  
+  "metadata_db_mapping": {
+    "db_label_id": "EEG_1",
+    "db_trigger_type": "none"
+  },
+  
+  "timing_control": {
+    "schema_temporale": "timer",
+    "time_modal": "singola",
+    "trigger_delay_ms": 5000,
+    "random_variance_ms": 0
+  },
+  
+  "injection_parameters": {
+    "target_signal_affected": "all",
+    "effect_type": "LATENCY_SHIFT",
+    "anomaly_magnitude": 50,
+    "magnitude_unit": "percentuale_ampiezza",
+    "appearance_pct": 100
+  },
+
+  "scenario_specific_config": {
+    "note": "Aggiungere qui parametri specifici per lo scenario.",
+    "waves_affected": "all",
+    "eeg_filter": {
+       "low": "1.6",
+       "higth": "25"
+    },
+    "eeg_channels": {
+       "chn_fr": ["Fp1", "Fp2"],
+       "chn_dx": ["F4", "C4"],
+       "chn_sn": ["F3", "C3"],
+       "chn_md": ["Fz", "Cz", "Pz"],
+       "chn_oc": ["O1", "O2"]
+    }
+  },
+
+  "learning_assessment": {
+    "question": "Hai notato una riduzione di ampiezza di tutti i canali EEG ?. Qual è la causa più probabile?",
+    "correct_answer": "Causa sistemica : ipoperfusione",
+    "distractors": [
+      "Problema di messa a terra",
+      "Elevata impedenza degli elettrodi",
+      "Interfernze ambientali"
+    ]
+  }
+}

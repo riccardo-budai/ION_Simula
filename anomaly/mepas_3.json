@@ -1,0 +1,56 @@
+{
+  "info": "Template to configure a MEPas response with drill anomaly: all. Correct answer: Drill interference",
+
+  "metadata_db_mapping": {
+    "comment": "label in table scenari_anomaly",
+    "db_label_id": "MEPAS_3",
+    "db_trigger_type": "stim"
+  },
+
+  "id": "MEPas_drill_interference",
+  "description": "MEP contaminated with drill interference. Cause: drilling action",
+  "metadata_ui": {
+    "db_label_id": "MEPAS_3",
+    "question": "You have noticed a HF noise superimposed to all responses. What is the cause?",
+    "correct_answer": "Electrode dislocation",
+    "distractors": ["Grounding issue", "Sub-threshold stimulation", "Drill in action"],
+    "points_value": 30,
+    "difficulty_level": 2
+  },
+
+  "timing_control": {
+    "trigger_type": "Timer",
+    "time_model": "single",
+    "trigger_time_s": 15.0,
+    "repeat_interval_s": 0.0,
+    "duration_s": 10.0
+  },
+
+  "anom_config": {
+    "active": true,
+
+    "_comment": "Parameters for ArtifactGenerator",
+    "type": "DRILL",
+    "target_signal": "ALL",
+
+    "amplitude_factor": 0.0,
+    "latency_shift_ms": 0.0,
+
+    "noise_amplitude": 10.0,
+    "base_value_offset": 0.0,
+
+    "_comment_ui": "Parameters used only for user feedback/scoring logic",
+    "expected_action": "NONE = ARTIFACT"
+  },
+
+   "learning_assessment": {
+    "question": "You have noticed a HF noise superimposed to all responses. What is the most likely cause?",
+    "correct_answer": "Drill in action",
+    "distractors": [
+      "Grounding issue",
+      "Sub-threshold stimulation",
+      "electrode displacement",
+      "Central deficit"
+    ]
+  }
+}

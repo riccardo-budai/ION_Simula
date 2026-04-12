@@ -1,0 +1,4 @@
+
+URL : https://lifesciencedb.jp/bp3d/
+
+mesh data source from that url : bone, muscle, vessel, internal parts

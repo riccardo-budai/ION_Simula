@@ -1,0 +1,178 @@
+{
+    "surgery_type": "Craniotomy",
+    "location": "Cortical setup",
+    "laterality": "Left",
+    "description": "Custom configuration modified.",
+    "active_modules": [
+        "ANESTHESIA",
+        "EEG",
+        "ECOG",
+        "MEP_CONTRA",
+        "MEP_FOUR_LIMB",
+        "SEP_UL",
+        "SEP_LL",
+        "EMG_FREE"
+    ],
+    "channel_mapping": {
+        "CH1": {
+            "name": "EEG C3",
+            "side": "Scalp"
+        },
+        "CH2": {
+            "name": "EEG C4",
+            "side": "Scalp"
+        },
+        "CH3": {
+            "name": "EEG Cz",
+            "side": "Scalp"
+        },
+        "CH4": {
+            "name": "EEG Fz",
+            "side": "Scalp"
+        },
+        "CH5": {
+            "name": "SEP Erb Point",
+            "side": "Bi"
+        },
+        "CH6": {
+            "name": "SEP Cv7 (N13)",
+            "side": "Bi"
+        },
+        "CH7": {
+            "name": "SEP C3'/C4' (N20)",
+            "side": "Bi"
+        },
+        "CH8": {
+            "name": "SEP Popliteal Fossa",
+            "side": "Bi"
+        },
+        "CH9": {
+            "name": "SEP L1 (N22)",
+            "side": "Bi"
+        },
+        "CH10": {
+            "name": "SEP Cz' (P37)",
+            "side": "Bi"
+        },
+        "CH11": {
+            "name": "APB (+)",
+            "side": "Left"
+        },
+        "CH12": {
+            "name": "APB (-)",
+            "side": "Left"
+        },
+        "CH13": {
+            "name": "ADM (+)",
+            "side": "Left"
+        },
+        "CH14": {
+            "name": "ADM (-)",
+            "side": "Left"
+        },
+        "CH15": {
+            "name": "Biceps (+)",
+            "side": "Left"
+        },
+        "CH16": {
+            "name": "Biceps (-)",
+            "side": "Left"
+        },
+        "CH17": {
+            "name": "Deltoid (+)",
+            "side": "Left"
+        },
+        "CH18": {
+            "name": "Deltoid (-)",
+            "side": "Left"
+        },
+        "CH19": {
+            "name": "Tibialis Ant. (+)",
+            "side": "Left"
+        },
+        "CH20": {
+            "name": "Tibialis Ant. (-)",
+            "side": "Left"
+        },
+        "CH21": {
+            "name": "Abd. Hallucis (+)",
+            "side": "Left"
+        },
+        "CH22": {
+            "name": "Abd. Hallucis (-)",
+            "side": "Left"
+        },
+        "CH23": {
+            "name": "Quadriceps (+)",
+            "side": "Left"
+        },
+        "CH24": {
+            "name": "Quadriceps (-)",
+            "side": "Left"
+        },
+        "CH25": {
+            "name": "APB (+)",
+            "side": "Right"
+        },
+        "CH26": {
+            "name": "APB (-)",
+            "side": "Right"
+        },
+        "CH27": {
+            "name": "ADM (+)",
+            "side": "Right"
+        },
+        "CH28": {
+            "name": "ADM (-)",
+            "side": "Right"
+        },
+        "CH29": {
+            "name": "Biceps (+)",
+            "side": "Right"
+        },
+        "CH30": {
+            "name": "Biceps (-)",
+            "side": "Right"
+        },
+        "CH31": {
+            "name": "Deltoid (+)",
+            "side": "Right"
+        },
+        "CH32": {
+            "name": "Deltoid (-)",
+            "side": "Right"
+        }
+    },
+    "stimulator_mapping": {
+        "STIM1": {
+            "type": "Electrical (HV)",
+            "site": "C3-C4 (Corkscrew)",
+            "notes": "Transcranial (Multipulse)"
+        },
+        "STIM2": {
+            "type": "Electrical (CC)",
+            "site": "Median Nerve (L)",
+            "notes": "Wrist"
+        },
+        "STIM3": {
+            "type": "Electrical (CC)",
+            "site": "Median Nerve (R)",
+            "notes": "Wrist"
+        },
+        "STIM4": {
+            "type": "Electrical (CC)",
+            "site": "Tibial Post. (L)",
+            "notes": "Ankle"
+        },
+        "STIM5": {
+            "type": "Electrical (CC)",
+            "site": "Tibial Post. (R)",
+            "notes": "Ankle"
+        },
+        "STIM6": {
+            "type": "Electrical (Cortical)",
+            "site": "Strip/Grid",
+            "notes": "Direct Cortical Stim"
+        }
+    }
+}

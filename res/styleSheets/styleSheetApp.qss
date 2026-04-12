@@ -1,0 +1,19 @@
+QWidget {
+    background-color: #505050;
+}
+
+QPushButton {
+    background-color: #0078d4;
+    color: #FFA07A;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+QPushButton:hover { /* Selettore: QPushButton quando il mouse è sopra */
+  background-color: darkBlue;
+}
+
+QPushButton:pressed { /* Selettore: QPushButton quando viene premuto */
+    background-color: darkgray;
+}

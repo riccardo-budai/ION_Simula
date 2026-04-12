@@ -1,0 +1,13 @@
+CREATE TABLE gemini_interactions (
+    interaction_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    idsession INTEGER,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    prompt_text TEXT NOT NULL,
+    response_text TEXT NOT NULL,
+    evaluation_topic TEXT,
+    suggested_complexity TEXT,
+    reasoning_summary TEXT,
+    
+    -- Opzionale: Chiave esterna per collegare alla sessione (se sessions_decisions ha una colonna 'session_id')
+    FOREIGN KEY (idsession) REFERENCES sessions(idsession)
+);

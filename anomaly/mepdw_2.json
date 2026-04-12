@@ -1,0 +1,55 @@
+{
+  "info": "Template to configure a DWave response amplitude anomaly: distal. Correct answer: On site Cause",
+
+  "metadata_db_mapping": {
+    "comment": "label in table scenari_anomaly",
+    "db_label_id": "MEPDW_2",
+    "db_trigger_type": "stim"
+  },
+
+  "id": "MEPdw_amp_reduction_distal",
+  "description": "50% DWave amplitude reduction at distal position. Cause: on chir.site",
+  "metadata_ui": {
+    "db_label_id": "MEPDW_2",
+    "question": "You have noticed a 50% reduction in amplitude on distal site. What is the cause?",
+    "correct_answer": "On site cause",
+    "distractors": ["Grounding issue", "Sub-threshold stimulation", "Displaced electrode"],
+    "points_value": 10,
+    "difficulty_level": 1
+  },
+
+  "timing_control": {
+    "trigger_type": "Timer",
+    "time_model": "single",
+    "trigger_time_s": 15.0,
+    "repeat_interval_s": 0.0,
+    "duration_s": 10.0
+  },
+
+  "anom_config": {
+    "active": true,
+
+    "_comment": "Parameters for ArtifactGenerator",
+    "type": "EP_MODIFICATION",
+    "target_signal": "DISTAL",
+
+    "amplitude_factor": 0.5,
+    "latency_shift_ms": 0.0,
+
+    "noise_amplitude": 0.0,
+    "base_value_offset": 0.0,
+
+    "_comment_ui": "Parameters used only for user feedback/scoring logic",
+    "expected_action": "WARN_SURGEON"
+  },
+
+   "learning_assessment": {
+    "question": "You have noticed a 50% reduction in DWave amplitude on distal site. What is the most likely cause?",
+    "correct_answer": "On surgical site cause",
+    "distractors": [
+      "Grounding issue",
+      "Sub-threshold stimulation",
+      "Displaced recording electrode"
+    ]
+  }
+}

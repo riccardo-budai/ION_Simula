@@ -1,0 +1,31 @@
+{
+  "description": "Modello base per la configurazione di una nuova anomalia di simulazione. TUTTI i campi devono essere popolati.",
+  
+  "metadata_db_mapping": {
+    "db_label_id": "SEP_1",
+    "db_trigger_type": "stim"
+  },
+  
+  "timing_control": {
+    "schema_temporale": "timer",
+    "time_modal": "singola",
+    "trigger_delay_ms": 5000,
+    "random_variance_ms": 0
+  },
+  
+  "injection_parameters": {
+    "target_signal_affected": "S1_CORTICAL",
+    "effect_type": "LATENCY_SHIFT",
+    "anomaly_magnitude": 50,
+    "magnitude_unit": "percentuale_ampiezza",
+    "appearance_pct": 100
+  },
+  
+  "scenario_specific_config": {
+    "note": "Aggiungere qui parametri specifici per lo scenario (es. quali fibre nervose sono colpite, quale onda specifica viene alterata, ecc.).",
+    "waves_affected": [
+      "N20",
+      "P25"
+    ]
+  }
+}

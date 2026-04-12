@@ -1,0 +1,11 @@
+{
+    "surgery_type": "Select Type...",
+    "location": "",
+    "laterality": "Right",
+    "description": "Custom configuration (Modified)",
+    "active_modules": [
+        "ANESTHESIA"
+    ],
+    "channel_mapping": {},
+    "stimulator_mapping": {}
+}
